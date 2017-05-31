@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[domozhirov-overlay]]></name>
+    <description><![CDATA[Gentoo overlay.]]></description>
+    <homepage>https://github.com/rosmanov/gentoo-overlay</homepage>
+    <owner>
+      <name><![CDATA[Mikhail Domozhirov]]></name>
+      <email>rrosmanov@gmail.com</email>
+    </owner>
+    <source type="git">https://github.com/domozhirov/gentoo-overlay.git</source>
+    <feed>https://github.com/rosmanov/domozhirov-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
