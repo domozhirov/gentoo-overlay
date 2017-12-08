@@ -39,7 +39,6 @@ src_unpack() {
 }
 
 src_prepare() {
-	#epatch "${FILESDIR}"/${PN}-2.0.1_beta-darwin8.patch
 
 	# drop nasty hardcoded search path breaking Prefix
 	# We patch configure directly since otherwise we need to run
