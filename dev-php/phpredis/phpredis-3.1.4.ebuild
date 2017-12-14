@@ -4,7 +4,7 @@
 EAPI=6
 PHP_EXT_NAME="redis"
 PHP_EXT_INI="yes"
-USE_PHP="php7-2"
+USE_PHP="php7-2 php7-1 php7-0"
 
 inherit php-ext-source-r3 autotools
 
